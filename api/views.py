@@ -1,3 +1,9 @@
-from django.shortcuts import render
+from django.http import HttpRequest, JsonResponse
 
-# Create your views here.
+
+def register(request: HttpRequest) -> JsonResponse:
+    pass
+
+
+def user_settings(request: HttpRequest) -> JsonResponse:
+    pass
